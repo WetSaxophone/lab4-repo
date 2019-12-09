@@ -7,7 +7,7 @@ def index():
 
 @app.route('/contact-me')
 def contact():
-	return render_template('contacts.html')
+	return render_template('contactme.html')
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=5000)
